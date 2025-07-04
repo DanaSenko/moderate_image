@@ -1,7 +1,7 @@
 # NSFW Image Moderation API
 
 ## Описание
-Сервис на FastAPI для проверки изображений на нежелательный контент через DeepAI NSFW API.
+Сервис на FastAPI для проверки изображений на нежелательный контент через https://rapidapi.com.
 
 ## Запуск
 1. Клонируйте репозиторий
@@ -9,9 +9,9 @@
    ```
 pip install -r requirements.txt
    ```
-3. Создайте файл `.env` и добавьте ваш ключ DeepAI:
+3. Создайте файл `.env` и добавьте ваш ключ RAPIDAPI_KEY:
    ```
-DEEPAI_API_KEY=ваш_ключ
+RAPIDAPI_KEY=ваш_ключ
    ```
 4. Запустите сервер:
    ```
